@@ -1,49 +1,49 @@
 :root {
-    --font-family: "Manrope", sans-serif;
-    --second-family: "Inter", sans-serif;
-    --third-family: "Font Awesome 5 Brands", sans-serif;
+  --font-family: "Manrope", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "Font Awesome 5 Brands", sans-serif;
 }
 
 /***** nav *****/
 #nav {
-    padding: 0;
-    border-bottom: 1px solid rgba(102, 102, 102, 0.16);
+  padding: 0;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.16);
 }
 
 #nav ul li a {
-    font-family: var(--second-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 162%;
-    letter-spacing: 0.03em;
-    text-transform: capitalize;
-    color: #1c1d20;
-    padding: 12px 22px;
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #1c1d20;
+  padding: 12px 22px;
 }
 
 #nav .button a {
-    display: inline-flex;
-    line-height: 0;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 16px;
-    padding: 9px 30px;
-    letter-spacing: 0.03em;
-    text-transform: capitalize;
-    color: #fff;
-    background: #1c1d20;
-    border-radius: 100px;
-    transition: 0.3s;
+  display: inline-flex;
+  line-height: 0;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 9px 30px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #fff;
+  background: #1c1d20;
+  border-radius: 100px;
+  transition: 0.3s;
 }
 
 #nav .button a:hover {
-    background-color: transparent;
-    color: #1c1d20;
-    outline: 1px solid #1c1d20;
-    text-decoration: underline;
+  background-color: transparent;
+  color: #1c1d20;
+  outline: 1px solid #1c1d20;
+  text-decoration: underline;
 }
 
 /***** End nav *****/
@@ -51,323 +51,400 @@
 /***** banner *****/
 
 #banner {
-    background-image: url('../image/banner/Section.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+  background-image: url("../image/banner/Section.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #banner .row {
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #banner .row .image img {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 #banner .row .image {
-    position: relative;
+  position: relative;
 }
 
 #banner .row .image .link {
-    position: absolute;
-    transform: rotate(-90deg);
-    top: 240px;
-    left: -140px;
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 240px;
+  left: -140px;
 }
 
 #banner .row .image .link a {
-    text-decoration: none;
-    font-family: var(--second-family);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 186%;
-    letter-spacing: 0.04em;
-    color: #666;
-    padding: 0 10px;
+  text-decoration: none;
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 186%;
+  letter-spacing: 0.04em;
+  color: #666;
+  padding: 0 10px;
 }
 
 #banner .row .image .link a:hover {
-    color: black;
+  color: black;
 }
 
 #banner .row .contain span {
-    font-family: var(--second-family);
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 144%;
-    letter-spacing: 0.03em;
-    color: #1c1d20;
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 144%;
+  letter-spacing: 0.03em;
+  color: #1c1d20;
 }
 
 #banner .row .contain h4 {
-    font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 75px;
-    line-height: 108%;
-    letter-spacing: 0.01em;
-    text-transform: capitalize;
-    color: #1c1d20;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 75px;
+  line-height: 108%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #1c1d20;
 }
 
 #banner .row .contain p {
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 162%;
-    color: #666;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: #666;
 }
 
 #banner .row .contain .button {
-    align-items: center;
+  align-items: center;
 }
 
 #banner .row .contain .button a {
-    display: inline-flex;
-    line-height: 0;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+  display: inline-flex;
+  line-height: 0;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 #banner .row .contain .button a:first-child {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    text-transform: capitalize;
-    color: #1c1d20;
-    padding: 17px 30px;
-    background: #28e98c;
-    border-radius: 100px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #1c1d20;
+  padding: 17px 30px;
+  background: #28e98c;
+  border-radius: 100px;
 }
 
 #banner .row .contain .button a:last-child {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 14px;
-    /* line-height: 171%; */
-    letter-spacing: 0.04em;
-    color: #1c1d20;
-    padding: 15px 0;
-    border-radius: 100px;
-    margin-left: 24px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  /* line-height: 171%; */
+  letter-spacing: 0.04em;
+  color: #1c1d20;
+  padding: 15px 0;
+  border-radius: 100px;
+  margin-left: 24px;
 }
 
 #banner .row .contain .button a .play {
-    margin-right: 9px;
-    color: #28e98c;
+  margin-right: 9px;
+  color: #28e98c;
 }
 
 /***** End banner *****/
 
 /***** animation *****/
 
-
-
-
 .scrolling-text {
-    width: 100%;
-    background-color: #111;
-    /* ব্যাকগ্রাউন্ড কালার */
-    overflow: hidden;
-    white-space: nowrap;
-    box-sizing: border-box;
+  width: 100%;
+  background-color: #111;
+  /* ব্যাকগ্রাউন্ড কালার */
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
 .text-content {
-    display: inline-block;
-    padding-left: 100%;
-    animation: scroll-left 15s linear infinite;
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 15s linear infinite;
 }
 
 .text-content span {
-    font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 132%;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #fff;
-    margin-right: 60px;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 132%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #fff;
+  margin-right: 60px;
 }
 
 .text-content span .star {
-    color: #28e98c;
+  color: #28e98c;
 }
 
 @keyframes scroll-left {
-    0% {
-        transform: translateX(0%);
-    }
+  0% {
+    transform: translateX(0%);
+  }
 
-    100% {
-        transform: translateX(-100%);
-    }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 /***** End animation *****/
 
 /***** about *****/
 #about .main {
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #about .main .image {
-    position: relative;
+  position: relative;
 }
 
 #about .main .image .side-1 {
-    position: absolute;
-    left: -100px;
-    bottom: 20px;
-    animation: upDown 2s ease-in-out infinite;
-    
+  position: absolute;
+  left: -100px;
+  bottom: 20px;
+  animation: upDown 2s ease-in-out infinite;
 }
+
 @keyframes upDown {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
-    100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 #about .main .image .side-2 {
-    position: absolute;
-    top: 140px;
-    right: -65px;
-    animation: UpDown 2s ease-in-out infinite;
-    
+  position: absolute;
+  top: 140px;
+  right: -65px;
+  animation: UpDown 2s ease-in-out infinite;
 }
+
 @keyframes UpDown {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(8px); }
-    100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(8px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 #about .contain .title span {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 0;
-    letter-spacing: 0.03em;
-    color: #1c1d20;
-
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 0;
+  letter-spacing: 0.03em;
+  color: #1c1d20;
 }
 
 #about .contain .title h4 {
-    font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 116%;
-    letter-spacing: 0.01em;
-    text-transform: capitalize;
-    color: #1c1d20;
-    margin-top: 12px;
-    margin-bottom: 16px;
-
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 116%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #1c1d20;
+  margin-top: 12px;
+  margin-bottom: 16px;
 }
 
 #about .contain .title h4 span {
-    font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 116%;
-    letter-spacing: 0.01em;
-    text-transform: capitalize;
-    color: #1c1d20;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 116%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #1c1d20;
 }
 
 #about .contain .title p {
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 162%;
-    letter-spacing: 0.03em;
-    color: #666;
-    margin-bottom: 0;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  color: #666;
+  margin-bottom: 0;
 }
 
 #about .contain .one {
-    margin-top: 33px;
-    margin-bottom: 45px;
+  margin-top: 33px;
+  margin-bottom: 45px;
 }
 
 #about .contain .one .head {
-    font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 116%;
-    letter-spacing: 0.01em;
-    text-transform: capitalize;
-    color: #1c1d20;
-
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 116%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #1c1d20;
 }
 
 #about .contain .one .sub {
-    display: flex;
+  display: flex;
 }
 
 #about .contain .one .para p {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 145%;
-    letter-spacing: 0.03em;
-    text-transform: capitalize;
-    color: #1c1d20;
-    margin: 0 0 0 10px;
-
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #1c1d20;
+  margin: 0 0 0 10px;
 }
 
 #about .contain .two .button a {
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    text-transform: capitalize;
-    color: #1c1d20;
-    padding: 17px 30px;
-    line-height: 0;
-    background: #28e98c;
-    border-radius: 100px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #1c1d20;
+  padding: 17px 30px;
+  line-height: 0;
+  background: #28e98c;
+  border-radius: 100px;
 }
 
 #about .contain .two .contact {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #about .contain .two .contact .number p {
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 162%;
-    letter-spacing: 0.03em;
-    color: #666;
-    margin-bottom: 4px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  color: #666;
+  margin-bottom: 4px;
 }
 
 #about .contain .two .contact .number h6 {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 145%;
-    letter-spacing: 0.03em;
-    text-transform: capitalize;
-    color: #1c1d20;
-    margin: 0;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #1c1d20;
+  margin: 0;
 }
 
 #about .contain .two .contact .number {
-    margin-left: 16px;
+  margin-left: 16px;
 }
 
 /***** End about *****/
+
+/***** Section *****/
+#service {
+  background: #1c1d20;
+}
+#service .contain .head {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#service .contain h4 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 116%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
+#service .service_box {
+  border: 1px solid rgba(102, 102, 102, 0.24);
+  border-radius: 16px;
+  padding: 35px 25px;
+  margin-bottom: 20px;
+}
+#service .service_box .id {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #666;
+}
+#service .service_box .title {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #fff;
+}
+#service .service_box .description {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  color: #bbbcbc;
+}
+#service .service_box .icon span {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  outline: 2px solid #28e98c;
+  color: #28e98c;
+  cursor: pointer;
+}
+
+/***** End Section *****/

@@ -57,4 +57,9 @@
   #about .contain .two .contact {
     margin-top: 20px;
   }
+
+
+  #service .service_box {
+    overflow-x: auto;
+  }
 }
