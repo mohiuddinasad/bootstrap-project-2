@@ -382,6 +382,7 @@
 
 /***** Section *****/
 #service {
+  padding: 70px 0;
   background: #1c1d20;
 }
 #service .contain .head {
@@ -403,6 +404,7 @@
   text-transform: capitalize;
   text-align: center;
   color: #fff;
+  margin-bottom: 25px;
 }
 #service .service_box {
   border: 1px solid rgba(102, 102, 102, 0.24);
@@ -435,7 +437,7 @@
   letter-spacing: 0.03em;
   color: #bbbcbc;
 }
-#service .service_box .icon span {
+#service .service_box .icon a {
   width: 32px;
   height: 32px;
   display: flex;

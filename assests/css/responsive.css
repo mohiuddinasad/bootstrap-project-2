@@ -15,7 +15,7 @@
     font-size: 30px;
   }
   #about {
-    padding: 60px 0;
+    padding: 60px 0 0 0;
   }
   #about .main .image {
     margin-top: 15px;
@@ -59,7 +59,10 @@
   }
 
 
-  #service .service_box {
+  #service .service_parent {
     overflow-x: auto;
+  }
+  #service .service_box{
+    width: 850px;
   }
 }
